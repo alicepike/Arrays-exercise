@@ -31,12 +31,12 @@ puts "Your answer is: " + responses[1]
 #
 #    Print the entire array to the screen to see what your array
 #    looks like.
-puts responses.push["It is decidedly so", "Ask again later", "My reply is no"]
+puts responses.push("It is decidedly so", "Ask again later", "My reply is no")
 
 
 # 4. Remove the first value from your Array ("It is certain") using
 #    shift method and print your Array again. 
-puts responses.shift[0]
+puts responses.shift(0)
 
 # 5. Add a new item to the front of your Array by using the `unshift`
 #    method.
@@ -44,5 +44,5 @@ puts responses.shift[0]
 #    - "As I see it, yes"
 #
 #    And print your Array one more time to make sure it's correct!
-puts responses.unshift["As I see it, yes"]
+puts responses.unshift("As I see it, yes")
 
