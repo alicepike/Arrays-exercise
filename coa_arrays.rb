@@ -18,4 +18,4 @@ months_b = months_a + ["April", "May"]
 puts "Alice".split("")
 # 4. Remove and display the last value in the months array.
 # Was April and May removed why or why not.
-
+puts months_a.pop()
